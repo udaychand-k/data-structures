@@ -2,7 +2,7 @@
 This type of insertion sort uses while loop and coping of adjacent elements
 """
 
-a=list ( map( int, list(input().split())))
+a=list ( map( int, list(input('enter elements: ').split())))
 n= len( a) # insertion sort
 for i in range ( 1,n):
     temp=a[ i]
