@@ -33,7 +33,6 @@ class Stream:
             print(f"for_each: received {item}")
             consumer(item)
 
-# 📦 Example usage
 data = [1, 2, 3, 4, 5]
 
 Stream(data)\
